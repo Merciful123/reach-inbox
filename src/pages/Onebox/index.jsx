@@ -8,7 +8,6 @@ import message from "../../assets/messageIcon.svg";
 import list from "../../assets/List.svg";
 import notify from "../../assets/Notify.svg";
 import bar from "../../assets/bar_chart.svg";
-import aeroDown from "../../assets/aeroDown.svg";
 import { Badge, Button } from "@nextui-org/react";
 import { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
@@ -72,12 +71,10 @@ const Onebox = () => {
             <div>
               <Dropdown>
                 <DropdownTrigger>
-                  {/* <Button variant="" className="flex justify-center items-center"> */}
                   <div className="flex justify-center items-center text-gray-400 gap-1 cursor-pointer">
                     Profile
                     <MdOutlineKeyboardArrowDown size={20}/>
                   </div>
-                  {/* </Button> */}
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions">
                   <DropdownItem key="new">Profile</DropdownItem>

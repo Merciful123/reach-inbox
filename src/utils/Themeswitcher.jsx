@@ -23,7 +23,6 @@ export default function Switcher() {
           onValueChange={toggleDarkMode}
           defaultSelected
           size="lg"
-          // back
           color="secondary"
           thumbIcon={({ isSelected, className }) =>
             isSelected ? (
